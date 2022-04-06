@@ -10,7 +10,7 @@ import StartScreen from "./components/StartScreen.js";
 import Mainscreen from "./components/Mainscreen.js";
 
 function App(){
-  const [isQuizStarted,setisQuizStarted] = useState(false);
+  const [QuizStarted,getQuizStarted] = useState(false);
 
   return(
 
@@ -33,10 +33,10 @@ function App(){
  
       <div className="Quiz-container">
         {
-          isQuizStarted ? (
-            <Mainscreen retry ={()=> setisQuizStarted(false)}/>
+          QuizStarted ? (
+            <Mainscreen retry ={()=> getQuizStarted(false)}/>
           ): (
-            <StartScreen start  ={()=> setisQuizStarted(true)}/>
+            <StartScreen start  ={()=> getQuizStarted(true)}/>
           )
         }
         
