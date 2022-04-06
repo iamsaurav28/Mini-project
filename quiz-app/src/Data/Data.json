@@ -1,0 +1,44 @@
+[
+     {
+          "title": " who all are part of Tapu Sena ?",
+          "options":["Tapu Sonu Goli Gogi and Pinku", "Tapu, rani, Goli,and Pinku.", "abdul, Sodhi, popatlal." ,"Amar, akhbar , anthony"],
+          "correctOptionIndex" : "0"
+     },
+
+     {
+          "title": " What is daya mother, real name ?",
+          "options":["rinku devi.", "dayalu ben.", "jeevdaya ben" ,"rukhmani"],
+          "correctOptionIndex" : "2"
+     },
+
+     {
+          "title": "What is the name of the company where Popatlal works as a reporter?",
+          "options":["kaltak news.", "aajtak news.", "toofan express" ,"top news"],
+          "correctOptionIndex" : "2"
+     },
+
+     {
+          "title": "Problem toh hai sabke saath Bas ___ ki hai baat ?",
+          "options":["solution", "ilaaj", "khane" ,"nazariye"],
+          "correctOptionIndex" : "3"
+     },
+
+     
+     {
+          "title": "madhvi brother name ?",
+          "options":["mandaar", "sundar", "bandar" ,"jogindar"],
+          "correctOptionIndex" : "0"
+     },
+
+     {
+          "title": "abdul shop name ?",
+          "options":["best shop", "all in one general store", "general store" ,"khao pio shop"],
+          "correctOptionIndex" : "1"
+     },
+     {
+          "title": "abdul shop name ?",
+          "options":["best shop", "all in one general store", "general store" ,"khao pio shop"],
+          "correctOptionIndex" : "1"
+     }
+
+]
