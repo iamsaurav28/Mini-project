@@ -1,3 +1,6 @@
+@import url("./Abstract/Colors.css");
+@import url("./Abstract/Variables.css");
+
 *{
   margin: 0px;
   padding: 0px;
@@ -11,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f5f5f5;
+  background: var(--bg-white);
    overflow-y: hidden;
 }
 
@@ -22,15 +25,15 @@ code {
 
 .title{
   font-weight: bolder;
-  color:white;
+  color:var(--white);
 }
 
 
 .btn{
   padding: 12px 10px;
   background:none;
-  color: darkblue;
-  outline: 2px solid darkblue;
+  color: var(--darkblue);
+  outline: 2px solid var(--darkblue);
   outline-offset: 4px;
   border: none;
   outline: none;
@@ -38,14 +41,14 @@ code {
   border-radius: 5px;
   font-size: 18px;
   font-weight:bolder;
-  border: 2px solid black;
+  border: 2px solid var(--black);
   margin-left:500px;
   transition:0.8s;
 }
 
 .btn:hover{
   outline-offset: -8px;
-  color: darkblue;
+  color: var(--darkblue);
   background: none;
 }
 
@@ -65,14 +68,14 @@ code {
 .links{
    margin: 0 30px;
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 
 .links::after{
   content: '';
   width: 0;
   height: 3px;
-  background-color: orangered;
+  background-color: var(--orangered);
   margin: auto;
   display: block;
 }
@@ -102,11 +105,11 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
-  border-bottom: 1px solid #d5d5d5;
+  background: var(--white);
+  border-bottom: 1px solid var(--light-grey);
 }
 .navbar .logo{
-  color: #111;
+  color: var(--black);
   text-align: center;
 }
 
@@ -116,8 +119,8 @@ code {
   width: 95%;
   max-width: 650px;
   min-height: 350px;
-  background: #fff;
-  border: 1px solid #eee;
+  background: var(--white);
+  border: 1px solid var(--bg-white);
   box-shadow:  0px 2px 5px 2px rgba(0,0,0,0.5);
 }
 
@@ -129,8 +132,8 @@ code {
   min-height: 400px;
   margin-top: 100px;
   text-align: center;
-  background: #fff;
-  border: 1px solid #eee;
+  background: var(--white);
+  border: 1px solid var(--bg-white);
   z-index: 1;
 }
 
@@ -152,11 +155,11 @@ code {
 
 .Start-Screen h2{
   font-size: 20px;
-  color: #111;
+  color: var(--black);
 }
 
 .Start-Screen p{
-  color: black;
+  color: var(--black);
 
 }
 
@@ -172,7 +175,7 @@ code {
   margin: 20px 0px; 
   text-align: center;
   font-size: 15px;
-  color: #555;
+  color: var(--secondary);
 }
 
 .quiz-screen .question .main{
@@ -181,13 +184,13 @@ code {
 
 .quiz-screen .question .main .title span{
   font-size: 15px;
-  color: #555;
-  font-weight: 600px;
+  color: var(--secondary);
+  font-weight: 600;
 }
 
 .quiz-screen .question .main .title p{
   margin-top: 5px;
-  color: #111;
+  color: var(--black);
 }
 .quiz-screen .question .main .options{
   margin: 40px 0px 20px;
@@ -206,15 +209,15 @@ code {
 }
 
 .quiz-screen .question .main .options .option.active{
-  background: #1428cd;
-  color: #fff;
+  background: var(--blue);
+  color: var(--white);
 }
 .quiz-screen .question .control{
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--bg-white);
 }
 
 .result-screen{
@@ -230,19 +233,19 @@ code {
 @keyframes progress{
   0%{
     width: 0%;
-    background: #111;
+    background: var(--black);
   }
   75%{
     width: 75%;
-    background: orangered;
+    background: var(--orangered);
   }
   80%{
     width: 80%;
-    background: red;
+    background: var(--heart);
   }
  100%{
     width: 100%;
-    background: red;
+    background: var(--heart);
   }
 }
 
@@ -256,8 +259,8 @@ code {
   margin-top: 60px;
   justify-content: center;
   align-items: center;
-  background: #fff;
-  border-bottom: 1px solid #d5d5d5;
+  background: var(--white);
+  border-bottom: 1px solid var(--light-grey);
 }
 
 .footer-social a img {
